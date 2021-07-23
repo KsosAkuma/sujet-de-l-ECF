@@ -104,11 +104,6 @@ Bonus PERSONEL : Incorporer les bases de Vue.JS au projet
         },
         verifForm() {
           if (this.email == this.confirmation && this.message != "") {
-            this.responseMail = "email envoyé";
-            setTimeout(() => {
-              this.responseMail = "";
-            }, 5000);
-
             this.togglee();
             fetch("php/formulaire.php", {
                 method: "POST",
@@ -125,6 +120,10 @@ Bonus PERSONEL : Incorporer les bases de Vue.JS au projet
               )
               .then(function(data) {
                 console.log(data);
+                this.responseMail = "email envoyé";
+                setTimeout(() => {
+                  this.responseMail = "";
+                }, 5000);
                 return data;
               });
           } else {
