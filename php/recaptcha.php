@@ -1,7 +1,6 @@
 <!-- <?PHP 
 /* Fichier recaptcha.php */
-// define("SITE_TUTO_EXEMPLE", "6LcJ2rUbAAAAAIhsklVDFccMGBH0rJXH0w-7Ag9Z");
-// define('SECRETE_TUTO_EXEMPLE', '6LcJ2rUbAAAAADFbeB5WAOljQC1B7Cp6AH4ESpv1');
+
 // /*----------------------------------------------------------------------------------*/
 // function check_token($token, $secret_key)
 // {
