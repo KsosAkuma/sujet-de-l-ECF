@@ -23,7 +23,9 @@ Bonus : Ajoutez un CAPTCHA pour filter les messages envoyés des bots.
 Bonus PERSONEL : Incorporer les bases de Vue.JS au projet
 ~~OK~~
  -->
-<!-- <?PHP require "php/recaptcha.php"; ?> -->
+<?PHP
+//require "php/recaptcha.php"; 
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
